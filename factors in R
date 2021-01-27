@@ -4,6 +4,8 @@
 # Create gender vector
 gender_vector <- c("Male", "Female", "Female", "Male", "Male")
 class(gender_vector)
+
+#to know occurence of a category
 table(gender_vector)
 
 # Convert gender_vector to a factor
